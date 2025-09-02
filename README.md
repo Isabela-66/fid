@@ -1,1 +1,1 @@
-# This Repo is for DIG2500 fundmentels of Interactive Design
+# This Repo is for DIG2500 fundmentals of Interactive Design
