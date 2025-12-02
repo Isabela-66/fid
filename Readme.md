@@ -1,0 +1,71 @@
+[index.html](https://github.com/user-attachments/files/23889373/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite England Soccer Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Elite England Soccer Academy</h1>
+    <p>High-level training inspired by Liverpool FC’s identity and intensity.</p>
+
+    <!-- Smaller hero image -->
+    <img src="academy-stadium.jpg" class="hero" alt="Stadium view">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="coaches.html">Coaches</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="box">
+        <h2>Welcome to the Academy</h2>
+        <p>
+            Elite England Soccer Academy is a high-performance fictional academy located near Liverpool.
+            Our mission is to create a professional-feeling environment where young players train with
+            purpose, passion, and top-level standards.
+        </p>
+        <p>
+            Every session is built around ball mastery, decision-making, intensity, and the modern style
+            of English football seen in the Premier League.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Why Train With Us?</h2>
+        <ul>
+            <li>Elite-level coaching tailored to each player’s strengths.</li>
+            <li>Modern training patterns used by Liverpool and top academies.</li>
+            <li>Focused sessions in a positive, confidence-building environment.</li>
+            <li>Smaller groups for more touches and more attention.</li>
+        </ul>
+        <a class="btn" href="programs.html">Explore Training Programs</a>
+    </div>
+
+    <div class="box">
+        <h2>Our Training Identity</h2>
+        <p>
+            We teach players to train with passion and intelligence, combining technical quality,
+            tactical awareness, and the work rate needed to thrive in the modern game.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Elite England Soccer Academy · Designed by Isabela Rodriguez
+</footer>
+
+</body>
+</html>
