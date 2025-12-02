@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Black Goose Bistro • Summer Menu</title>
+
+<style>
+/* GLOBAL */
+body {
+    /* EXERCISE 13-6 SHORTHAND VERSION */
+    background: #FAF4E8 url("purpledot.png") repeat-x top center;
+
+    font-family: Georgia, serif;
+    color: #5A4A6A;
+    line-height: 1.6;
+    margin: 0 12%;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(227, 201, 255, 0.45);
+    padding: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1.5em;
+}
+
+h1 {
+    color: #E3C9FF;
+    margin-bottom: .2em;
+}
+
+h2 {
+    color: #DCCCF2;
+    font-weight: normal;
+    font-size: 1.1em;
+    margin-bottom: .5em;
+}
+
+/* NAV */
+.topnav {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-size: 1.15em;
+}
+
+.topnav a {
+    color: #7A5AA5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    color: #C97FF4;
+    text-decoration: underline;
+}
+
+/* CONTENT */
+section {
+    background-color: #ffffff;
+    padding: 1.5em 2em;
+    margin-top: 1.5em;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #B890E9;
+    border-bottom: 2px solid #E3C9FF;
+    letter-spacing: .15em;
+    margin-top: 0;
+}
+
+em { color: #C97FF4; }
+strong { color: #7A5AA5; }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Black Goose Bistro • Summer Menu</h1>
+    <h2>Baker’s Corner, Seekonk, Massachusetts</h2>
+    <p>Hours: Monday–Thursday 11–9, Friday & Saturday 11–midnight</p>
+
+    <nav class="topnav">
+        <a href="#appetizers">Appetizers</a>
+        <a href="#maincourses">Main Courses</a>
+        <a href="#toasts">Traditional Toasts</a>
+        <a href="#desserts">Dessert Selection</a>
+    </nav>
+</header>
+
+<section id="appetizers">
+    <h3>APPETIZERS</h3>
+    <p><strong>Black bean purses</strong><br>Spicy black beans wrapped in phyllo. $3.95</p>
+    <p><strong>Southwestern napoleons — <em>new!</em></strong><br>Lump crab and tortillas. $7.95</p>
+</section>
+
+<section id="maincourses">
+    <h3>MAIN COURSES</h3>
+    <p><strong>Jerk rotisserie chicken — <em>new!</em></strong><br>Served with fried plantains. $12.95</p>
+    <p><strong>Shrimp saté kebabs</strong><br>With peanut sauce. $12.95</p>
+</section>
+
+<section id="toasts">
+    <h3>TRADITIONAL TOASTS</h3>
+    <p><strong>Cream toast</strong> $3.95</p>
+    <p><strong>Mushroom toast</strong> $6.95</p>
+    <p><strong>Nuns toast</strong> $6.95</p>
+    <p><strong>Apple toast</strong> $6.95</p>
+</section>
+
+<section id="desserts">
+    <h3>DESSERT SELECTION</h3>
+    <p><strong>Lemon chiffon cake — <em>new!</em></strong> $2.95</p>
+    <p><strong>Molten chocolate cake</strong> $3.95</p>
+</section>
+
+</body>
+</html>
