@@ -1,210 +1,93 @@
-/* Google Web Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body {
-    font-family: 'Poppins', Arial, sans-serif;
-    background: linear-gradient(180deg, #7f0000 0%, #a00000 40%, #b30000 75%, #600000 100%);
-    color: #fdfdfd;
-    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    color: #d98cab;
+}
+a:hover {
+    color: #d98cab;
 }
 
-/* HEADER */
-header {
-    background: linear-gradient(90deg, #d00000, #b30000, #8b0000);
-    color: #fff;
-    padding: 1.8rem 1rem 1.2rem;
+
+h1 {
+    font-size: 36px;
+    color: #d98cab; 
     text-align: center;
-    border-bottom: 5px solid #f7d75a;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.45);
+    margin-top: 30px;
 }
 
-header h1 {
-    font-size: 2.3rem;
-    letter-spacing: 1px;
-    text-shadow: 0 3px 8px rgba(0,0,0,0.4);
-}
-
-header p {
-    font-size: 1rem;
-    margin-top: 0.35rem;
-}
-
-header img.hero {
-    width: 100%;           /* full width */
-    max-height: 350px;     /* larger image */
-    object-fit: cover;     
-    display: block;
-    margin: 1rem auto;
-    border-radius: 10px;
-    border: 2px solid #b00000;
-}
-
-
-
-/* MAIN LAYOUT */
-.container {
-    max-width: 1100px;
-    margin: 2rem auto 3.5rem;
-    padding: 0 1rem 2rem;
-}
-
-/* SECTION BOXES */
-.box {
-    background: rgba(255,255,255,0.97);
-    color: #222;
-    padding: 1.3rem 1.4rem;
-    border-radius: 14px;
-    border-left: 6px solid #f7d75a;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.28);
-    margin-bottom: 1.3rem;
-}
-
-/* HEADERS */
 h2 {
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #8b0000;
-    margin-bottom: 0.45rem;
+    font-size: 26px;
+    color: #d98cab;
+    margin-top: 40px;
 }
 
-/* NAVIGATION */
 nav {
-    margin-top: 1rem;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
-    background: #8b0000;
-    padding: 0.5rem 1rem;
-    border-radius: 999px;
-    font-size: 0.9rem;
+    color: #2b2b2b;
+    margin: 0 15px;
     font-weight: 600;
-    border: 2px solid #f7d75a;
-    transition: 0.25s ease;
 }
 
-/* PSEUDO-CLASS (hover) */
+
 nav a:hover {
-    background: #f7d75a;
-    color: #8b0000;
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 4px 15px rgba(247,215,90,0.45);
+    color: #d98cab;
 }
 
-/* LISTS */
-ul, ol {
-    margin-left: 1.4rem;
-    margin-bottom: 1rem;
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
 }
 
-li {
-    margin-bottom: 0.35rem;
+
+p {
+    margin-bottom: 15px;
 }
 
-/* TABLE (Schedule) */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 0.7rem;
+
+img {
+    width: 30%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
-th, td {
-    padding: 0.7rem 0.75rem;
-    border: 1px solid #ddd;
-}
 
-th {
-    background: #8b0000;
-    color: #fff;
-    border-bottom: 3px solid #f7d75a;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #f9f2e0;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #fffaf0;
-}
-
-/* BUTTONS */
-.btn {
+.button, .btn {
+    background-color: #d98cab;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
     display: inline-block;
-    margin-top: 0.7rem;
-    padding: 0.55rem 1.2rem;
-    border-radius: 999px;
-    background: linear-gradient(90deg, #8b0000, #b30000);
-    color: #ffffff;
-    border: 2px solid #f7d75a;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 0.4px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.35);
-    transition: 0.25s ease;
+    margin-top: 10px;
 }
 
-/* BUTTON HOVER */
-.btn:hover {
-    background: #f7d75a;
-    color: #8b0000;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(247,215,90,0.55);
+
+.button:hover, .btn:hover {
+    background-color: #c07698;
 }
 
-/* LINKS */
-a {
-    color: #8b0000;
-}
-a:hover {
-    text-decoration: underline;
-}
 
-/* FOOTER */
 footer {
-    background: #420000;
-    color: #f7d75a;
     text-align: center;
-    padding: 1rem 0.5rem;
-    box-shadow: 0 -4px 12px rgba(0,0,0,0.4);
-    margin-top: 2.5rem;
-    border-top: 3px solid #f7d75a;
+    margin: 40px 0 20px;
+    color: #777;
+    font-size: 14px;
 }
-
-/* MOBILE */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.8rem;
-    }
-}
-/* Bigger hero image ONLY on the schedule page */
-#schedule-hero {
-    width: 100%;
-    max-height: 480px;   /* customize height */
-    object-fit: cover;
-    border: 3px solid #b00000;
-    border-radius: 10px;
-}
-/* Bigger hero image ONLY on the about page */
-#about-hero {
-    width: 100%;
-    max-height: 450px;     /* adjust this number for size */
-    object-fit: cover;
-    border: 3px solid #b00000;
-    border-radius: 10px;
-    margin: 1rem auto;
+a {
+    display: block;
+    margin-bottom: 10px;
 }
